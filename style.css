@@ -1,0 +1,40 @@
+form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+.form-wrapper{
+	width: 40vw;
+	height: 50vw;
+	
+	margin: auto;
+	outline: 1px solid grey;
+	box-shadow: 0px 2px 2px;
+}
+input,select{
+	margin: 10px 20px;
+	height: 3vw;
+}
+#user-comment{
+	height: 6vw;
+
+}
+.signUp{
+
+background-color: #3b5998;
+color: white;
+padding: 2vw;
+font-size: 24px;
+}
+.submit > input{
+	background-color: #3b5998;
+	width: 20%;
+	height: 2vw;
+	color: white;
+}
+.submit{
+	background-color: #add8e6;
+	height: 3.1vw;
+
+}
